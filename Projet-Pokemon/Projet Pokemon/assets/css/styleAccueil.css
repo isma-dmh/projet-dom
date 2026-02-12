@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "Righteous";
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+h1 {
+
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: -20px 0 20px red;
+
+}
+
+#bloc {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100dvh;
+  
+
+}
+
+#run {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+#button {
+
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+      text-shadow: 0px 0 20px rgb(126, 101, 36);
+
+
+
+}
+
+
+#pokeball {
+
+    background-color: rgb(255, 254, 254);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
