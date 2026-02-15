@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#menu {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    gap: 50px;
+    background-color: rgb(8, 3, 22);
+    box-shadow: inset 0 0 20px 0 rgb(70, 83, 255);
+    /* display: none; */
+
+}
+
+#menu h1 {
+
+    text-align: center;
+    color: #ffc010;
+    text-shadow: 5px 20px 20px blue;
+
+}
+
+#cards {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1abc9c56;
+    padding: 30px 50px 30px 50px;
+    box-shadow: inset 0px -20px 20px 0 #a0ffec56;
+    border-radius: 20px;
+    border: inset 4px rgb(200, 135, 235);
+    transition: 0.2s;
+
+}
+
+.card:hover {
+
+    border-color: rgb(97, 255, 5);
+    transform: scale(1.2);
+    box-shadow: inset 0px -20px 20px 0 #d9ff0056;
+
+    img {
+
+        transform: rotateX(360deg);
+        transition: 0.2s;
+
+    }
+
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.card h5 {
+
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: 3px 0px 0px black;
+}
+
+
+
+.card p {
+
+    text-align: center;
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: 3px 0px 0px black;
+
+}
