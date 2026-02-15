@@ -11,6 +11,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(../img/background-index.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -22,6 +25,7 @@ body {
 
 }
 
+/* PAGE DE CHOIX PERSO */
 
 #menu {
 
@@ -35,7 +39,7 @@ body {
     gap: 50px;
     background-color: rgb(8, 3, 22);
     box-shadow: inset 0 0 20px 0 rgb(70, 83, 255);
-    /* display: none; */
+    display: none;
 
 }
 
@@ -110,5 +114,152 @@ body {
     font-weight: bolder;
     font-size: large;
     text-shadow: 3px 0px 0px black;
+
+}
+
+/* PAGE DE COMBAT */
+
+#blocStat {
+
+    display: flex;
+    justify-content: space-around;
+    height: 100dvh;
+
+}
+
+.player {
+
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 50px;
+
+}
+
+
+.info {
+
+    background-color: black;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    border: double skyblue;
+
+
+}
+
+.nameStat {
+
+    color: white;
+    text-align: center;
+
+}
+
+.hpStat {
+
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+.jauge {
+
+    background-color: red;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    border: inset;
+
+}
+
+.jauge1 {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.vie {
+
+    background-color: greenyellow;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.pokemonImg {
+
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+
+}
+
+
+#command{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+}
+
+#message {
+
+    
+    width: 750px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.708);
+    border-radius: 25px;
+    border: dashed yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#messageP {
+
+    color: white;
+
+}
+
+#blocButton{
+
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+}
+
+.attaque{
+
+
+min-height: 50px;
+padding: 0 20px;
+border-radius: 10px;
+background-color: rgba(0, 0, 255, 0.61);
+color: white;
+font-size: larger;
+font-weight: bolder;
+border: inset 2px red;
+box-shadow: inset 0 0 20px 0 red;
+text-shadow: 2px 0 0 black;
+transition: 0.2s;
+
+}
+
+.attaque:hover{
+
+    background-color: yellow;
+    color: red;
+    transform: scale(1.2);
 
 }
