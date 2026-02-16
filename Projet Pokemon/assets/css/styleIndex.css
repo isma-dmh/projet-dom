@@ -27,13 +27,40 @@ body {
 
 /* PAGE DE CHOIX PERSO */
 
-.hidden {
 
-    display: none;
+.opacity {
+
+    opacity: 0;
 
 }
 
-#menu {
+.hidden {
+
+    display: none !important;
+
+}
+
+.pokemonImg1.scale,
+.pokemonImg2.scale {
+
+    transform: scale(1);
+
+}
+
+.pokemonImg1.rotate {
+
+    transform: scale(1) rotateY(180deg);
+
+}
+
+.vie.fullLife{
+
+    width: 0%;
+
+}
+
+
+.menu {
 
     position: absolute;
     display: flex;
@@ -45,10 +72,13 @@ body {
     gap: 50px;
     background-color: rgb(8, 3, 22);
     box-shadow: inset 0 0 20px 0 rgb(70, 83, 255);
+    transition: 1s;
 
 }
 
-#menu h1 {
+
+
+.menu h1 {
 
     text-align: center;
     color: #ffc010;
@@ -158,6 +188,7 @@ body {
 
     color: white;
     text-align: center;
+    transition: 2s;
 
 }
 
@@ -165,6 +196,7 @@ body {
 
     color: white;
     text-align: center;
+    transition: 2s;
 
 }
 
@@ -191,9 +223,10 @@ body {
 .vie {
 
     background-color: greenyellow;
-    width: 80%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
+    transition: 1.5s;
 
 }
 
@@ -202,9 +235,15 @@ body {
     width: 250px;
     height: 250px;
     justify-self: center;
-
 }
 
+.pokemonImg1,
+.pokemonImg2 {
+
+    transform: scale(0) rotateY(0);
+    transition: transform 1s;
+
+}
 
 #command {
 
@@ -229,9 +268,10 @@ body {
 
 }
 
-#messageP {
+.messageP {
 
     color: white;
+    transition: 2s;
 
 }
 
