@@ -27,6 +27,12 @@ body {
 
 /* PAGE DE CHOIX PERSO */
 
+.hidden {
+
+    display: none;
+
+}
+
 #menu {
 
     position: absolute;
@@ -39,7 +45,6 @@ body {
     gap: 50px;
     background-color: rgb(8, 3, 22);
     box-shadow: inset 0 0 20px 0 rgb(70, 83, 255);
-    display: none;
 
 }
 
@@ -201,18 +206,18 @@ body {
 }
 
 
-#command{
+#command {
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 #message {
 
-    
+
     width: 750px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.708);
@@ -230,33 +235,33 @@ justify-content: space-between;
 
 }
 
-#blocButton{
+#blocButton {
 
-margin-bottom: 20px;
-display: flex;
-justify-content: space-between;
-width: 100%;
-
-}
-
-.attaque{
-
-
-min-height: 50px;
-padding: 0 20px;
-border-radius: 10px;
-background-color: rgba(0, 0, 255, 0.61);
-color: white;
-font-size: larger;
-font-weight: bolder;
-border: inset 2px red;
-box-shadow: inset 0 0 20px 0 red;
-text-shadow: 2px 0 0 black;
-transition: 0.2s;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
-.attaque:hover{
+.attaque {
+
+
+    min-height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border: inset 2px red;
+    box-shadow: inset 0 0 20px 0 red;
+    text-shadow: 2px 0 0 black;
+    transition: 0.2s;
+
+}
+
+.attaque:hover {
 
     background-color: yellow;
     color: red;
