@@ -9,22 +9,20 @@ for (let button of buttons) {
 
         e.preventDefault();
 
+        const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-        pokeball.classList.add("activeScale");
+        const animation = async () => {
 
-
-
-        setTimeout(() => {
-
+            pokeball.classList.add("activeScale");
+            await wait(1000);
             pokeball.classList.add("activeX");
+            await wait(1000);
+            window.location.href = "./index.html";
 
-            setTimeout(() => {
 
-                window.location.href = "./index.html";
+        }
 
-            }, 2000);
-
-        }, 1000);
+        animation();
 
     })
 }
