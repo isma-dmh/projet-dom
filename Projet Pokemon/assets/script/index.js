@@ -191,7 +191,7 @@ function setPerso(choix) {
 
                     await wait(1500);
 
-                    //Attaque ennemi;
+                    //Attaque ennemi
 
                     title.classList.remove("messageSuccess");
                     adversImg.classList.remove("adversCoup");
@@ -275,7 +275,7 @@ function setPerso(choix) {
 
                 }
 
-                await wait(1000);
+                await wait(500);
 
 
                 if (user.hp <= 0 || advers.hp <= 0) {
