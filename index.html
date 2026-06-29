@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styleIndex.css">
+    <script src="./assets/script/index.js" type="module" defer></script>
+
+</head>
+
+<body>
+    <div class="menu">
+
+        <h1>FAITE VOTRE CHOIX !</h1>
+
+        <div id="cards">
+            <button class="card" data-name="Arcanin">
+                <img src="./assets/img/arcanin.png" alt="arcanin" class="pokemonImg">
+                <h5 class="pokemonName">ARCANIN</h5>
+                <p class="hp">HP: 390</p>
+            </button>
+            <button class="card" data-name="Leviator">
+                <img src="./assets/img/leviator.png" alt="leviator" class="pokemonImg">
+                <h5 class="pokemonName">LEVIATOR</h5>
+                <p class="hp">HP: 360</p>
+            </button>
+            <button class="card" data-name="Noadkoko">
+                <img src="./assets/img/noadkoko.png" alt="noadkoko" class="pokemonImg">
+                <h5 class="pokemonName">NOADKOKO</h5>
+                <p class="hp">HP: 330</p>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- PAGE DE BATAILLE -->
+
+    <div id="blocStat">
+
+        <div class="adversaire">
+
+            <img class="pokemonImg pokemonImg2" src="" alt="">
+
+            <div class="blocInfo">
+
+
+                <div class="info">
+                    <p class="statut">Adversaire</p>
+                    <h2 class="nameStat nameStat2 opacity"></h2>
+                    <p class="hpStat opacity life2"></span></p>
+                </div>
+
+                <div class="jauge">
+                    <div class="vie vie2 fullLife"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="message">
+            <h2 class="messageP opacity"></h2>
+        </div>
+
+        <div class="player joueur">
+
+            <div id="blocPlayer">
+
+                <div class="blocInfo infoPlayer">
+
+
+                    <div class="jauge jauge1">
+                        <div class="vie vie1 fullLife"></div>
+                    </div>
+
+
+                    <div class="info">
+                        <p class="statut">Joueur</p>
+                        <h2 class="nameStat nameStat1 opacity"></h2>
+                        <p class="hpStat opacity life1"></p>
+                    </div>
+
+
+
+                </div>
+
+                <img class="pokemonImg pokemonImg1" src="" alt="">
+
+            </div>
+
+
+        </div>
+
+
+        <div id="blocButton">
+
+            <button class="attaque" data-attaque="1"></button>
+            <button class="attaque" data-attaque="2"></button>
+            <button class="attaque" data-attaque="3"></button>
+            <button class="attaque" data-attaque="4"></button>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
