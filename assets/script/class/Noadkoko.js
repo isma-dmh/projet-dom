@@ -5,7 +5,7 @@ export class Noadkoko extends Pokemon {
     constructor() {
 
         super(
-            "Noadkoko", "./assets/img/Noadkoko.png",
+            "Noadkoko", "./assets/img/noadkoko.png",
             330,
             { nom: "Lance-Soleil", type: "plante", puissance: 90, precision: 0.90 },
             { nom: "Pouvoir Antique", type: "roche", puissance: 70, precision: 1.00 },
